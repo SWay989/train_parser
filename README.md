@@ -22,7 +22,7 @@ pip install -r requirements.txt
 python train_schedule.py [--days будни|ежедневно] [--file ПУТЬ_К_HTML] [--output ИМЯ_JSON]
 
 
-Примеры:
+'''Примеры:
 
 # Все рейсы, HTML берётся с сайта, вывод + schedule.json
 python train_schedule.py
@@ -34,19 +34,19 @@ python train_schedule.py --days будни
 python train_schedule.py --file station.html
 
 # Только ежедневные рейсы, результат в daily_trains.json
-python train_schedule.py --days ежедневно --output daily_trains.json
+python train_schedule.py --days ежедневно --output daily_trains.json'''
 
-Пример вывода
+'''Пример вывода
 09:15 | Москва Ярославская — Сергиев Посад | будни
-10:05 | Москва Ярославская — Александров | ежедневно
+10:05 | Москва Ярославская — Александров | ежедневно'''
 
 
-Результат в JSON — список объектов вида:
+'''Результат в JSON — список объектов вида:
 
 {
   "time": "09:15",
   "route": "Москва Ярославская — Сергиев Посад",
   "days": "будни"
 }
-
+'''
 
