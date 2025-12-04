@@ -50,5 +50,3 @@ python train_schedule.py --days ежедневно --output daily_trains.json
 }
 
 
-Если хочешь — могу ещё сильнее ужать или перевести на английский.
-::contentReference[oaicite:0]{index=0}
